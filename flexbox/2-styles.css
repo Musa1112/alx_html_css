@@ -1,0 +1,58 @@
+/* Common styles for all sections */
+section {
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  [class*='col-'] {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 10px;
+  }
+  
+  /* Styles for specific sections */
+  .section-services {
+    background-color: beige;
+    /* Custom styles for section-services */
+  }
+  
+  .section-works {
+    background-color: beige;
+    /* Custom styles for section-works */
+  }
+  
+  .section-about-us {
+    background-color: beige;
+    /* Custom styles for section-about-us */
+  }
+  
+  .section-latest-news {
+    background-color: beige;
+    /* Custom styles for section-latest-news */
+  }
+  
+  /* Custom styles for section-latest-news row */
+  .section-latest-news .row {
+    background-color: beige;
+
+    flex-direction: row-reverse;
+  }
+  
+  .section-testimonial {
+    background-color: beige;
+    /* Custom styles for section-testimonial */
+  }
+  
+  .section-contact {
+    background-color: beige;
+    /* Custom styles for section-contact */
+  }
+  
