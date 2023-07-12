@@ -22,9 +22,12 @@ section {
   /* Styles for specific sections */
   .section-services {
     background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
     /* Custom styles for section-services */
-  }
+  
   
   .section-works {
     background-color: beige;
