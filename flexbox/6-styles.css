@@ -44,8 +44,12 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
     display: flex;
   }
   
-  .nav .nav-item {
+  .nav-item{
     margin: 0 0 0 2rem;
+  }
+  .nav .nav-item {
+    /*margin not delared*/
+    padding: auto;
   }
   
   .nav .nav-item + .nav-item {
