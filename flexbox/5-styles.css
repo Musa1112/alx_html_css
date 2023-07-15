@@ -88,6 +88,9 @@ section {
 .col-1-2 {
   width: calc((100% / 2) - 2rem);
 }
+.header-logo{
+  background-color: #f4f4f4;
+}
 
 /* Header section */
 header {
