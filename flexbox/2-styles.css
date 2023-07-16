@@ -39,9 +39,10 @@ section {
     /* Custom styles for section-latest-news */
   }
   
-  /* Custom styles for section-latest-news row */
+ 
   .section-latest-news .row {
     background-color: beige;
+    
 
     flex-direction: row-reverse;
   }
