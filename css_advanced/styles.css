@@ -1,0 +1,207 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #000099;
+    height: 100px;
+  }
+  
+  .logo {
+    float: left;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .nav {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main {
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .image {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .videos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .video {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .video img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video a {
+    color: #000099;
+    text-decoration: none;
+  }
+  
+  .video a:hover {
+    color: #000099;
+    text-decoration: underline;
+  }
+  
+  .quote {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  .author {
+    font-size: 1em;
+  
+   
+      
+  }
+  .membership {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .membership h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .membership p {
+    margin-bottom: 10px;
+  }
+  
+  .membership .button {
+    background-color: #000099;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .membership .button:hover {
+    background-color: #000099;
+    color: white;
+    border: 1px solid #ccc;
+
+  }
+  .faq {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .faq h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .faq .question {
+    margin-bottom: 10px;
+  }
+  
+  .faq .answer {
+    margin-bottom: 10px;
+  }
+  
+  .faq .question::before {
+    content: "Q: ";
+    font-weight: bold;
+  }
+  
+  .faq .answer::before {
+    content: "A: ";
+    font-weight: bold;
+  }
+  
+  
+  .footer {
+    background-color: #000099;
+    height: 50px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .footer .copyright {
+    margin-top: 10px;
+  }
+  
+  .footer .links {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .links li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .footer .links a {
+    color: white;
+    text-decoration: none;
+  }
+  
