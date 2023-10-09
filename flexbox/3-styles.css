@@ -1,61 +1,60 @@
 /* Common styles for all sections */
 section {
-    padding: 20px;
-    background-color: beige;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .row {
-    display: flex;
-  }
-  
-  [class*='col-'] {
-    flex-grow: 1;
-    flex-basis: 0;
-    margin: 10px;
-  }
-  
-  /* Styles for specific sections */
-  .section-services {
-    background-color: beige;
-    display: flex;
-    flex-wrap: wrap;
-  }
+  padding: 20px;
+  background-color: beige;
+}
 
-    /* Custom styles for section-services */
-  
-  
-  .section-works {
-    background-color: beige;
-    /* Custom styles for section-works */
-  }
-  
-  .section-about-us {
-    background-color: beige;
-    /* Custom styles for section-about-us */
-  }
-  
-  .section-latest-news {
-    background-color: beige;
-    /* Custom styles for section-latest-news */
-  }
-  
-  /* Custom styles for section-latest-news row */
-  .section-latest-news .row {
-    flex-direction: row-reverse;
-  }
-  
-  .section-testimonial {
-    background-color: beige;
-    /* Custom styles for section-testimonial */
-  }
-  
-  .section-contact {
-    background-color: beige;
-    /* Custom styles for section-contact */
-  }
-  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+}
+
+[class*='col-'] {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 10px;
+}
+
+/* Styles for specific sections */
+.section-services {
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  /* Custom styles for section-services */
+
+
+.section-works {
+  background-color: beige;
+  /* Custom styles for section-works */
+}
+
+.section-about-us {
+  background-color: beige;
+  /* Custom styles for section-about-us */
+}
+
+.section-latest-news {
+  background-color: beige;
+  /* Custom styles for section-latest-news */
+}
+
+/* Custom styles for section-latest-news row */
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
+.section-testimonial {
+  background-color: beige;
+  /* Custom styles for section-testimonial */
+}
+
+.section-contact {
+  background-color: beige;
+  /* Custom styles for section-contact */
+}
